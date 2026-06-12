@@ -1,8 +1,3 @@
-Got it — here’s a **ready-to-use README.md** file you can copy and paste directly into your GitHub project.  
-
----
-
-```markdown
 # 🧮 Calculator
 
 A simple and interactive calculator built with **JavaScript, HTML, and CSS**.  
@@ -15,35 +10,6 @@ This project demonstrates core web development concepts such as DOM manipulation
 - Clear & Reset: Easily reset calculations  
 - Responsive Design: Works across devices and screen sizes  
 - User-Friendly UI: Clean layout with intuitive buttons  
-
----
-
-## 📂 Project Structure
-```
-calculator/
-│── index.html      # Main HTML file
-│── style.css       # Styling for the calculator
-│── script.js       # JavaScript logic
-│── README.md       # Documentation
-```
-
----
-
-## ⚙️ Installation & Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Ritesh7367/calculator.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd calculator
-   ```
-3. Open `index.html` in your browser to start using the calculator.
-
----
-
-## 🎨 Screenshots
-(Add screenshots here once the UI is ready)
 
 ---
 
