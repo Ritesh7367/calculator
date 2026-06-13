@@ -4,7 +4,12 @@ let arr=Array.from(buttons);
 arr.forEach(button =>{
     button.addEventListener('click', (e)=>{
         if(e.target.innerText == '='){
-            display.value = eval(display.value);
+            try{
+                display.value = eval(display.value);
+            }
+            catch{
+                display.value="ERROR";
+            }
         }
         else if(e.target.innerText == 'C'){
             display.value = '';
