@@ -7,27 +7,117 @@
     <link rel="stylesheet" href="STYLE.CSS">
 </head>
 <body>
+    <svg style="position: absolute; width: 0; height: 0;">
+  <filter width="3000%" x="-1000%" height="3000%" y="-1000%" id="unopaq">
+    <feColorMatrix
+      values="1 0 0 0 0 
+            0 1 0 0 0 
+            0 0 1 0 0 
+            0 0 0 3 0"
+    ></feColorMatrix>
+  </filter>
+</svg>
+<div class="backdrop"></div>
     <div class="grid">
         <input type="text" class="blank" id="display" placeholder="0" disabled>
-        <button class="clear">C</button>
-        <button class="back">BACK</button>
-        <button class="9 num">9</button>
-        <button class="8 num">8</button>
-        <button class="7 num">7</button>
-        <button class="6 num">6</button>
-        <button class="5 num">5</button>
-        <button class="4 num">4</button>
-        <button class="3 num">3</button>
-        <button class="2 num">2</button>
-        <button class="1 num">1</button>
-        <button class="0 num">0</button>
-        <button class="plus oper">+</button>
-        <button class="minus oper">-</button>
-        <button class="multiply oper">*</button>
-        <button class="divide oper">/</button>
-        <button class="equals">=</button>
-        <button class="decimal">.</button>
-        <button class="percent">%</button>
+        <button class="clear button">
+            <div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">C</div>
+        </button>
+        <button class="back button">
+            <div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">BACK</div></button>
+        <button class="9 num button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">9</div></button>
+        <button class="8 num button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">8</div></button>
+        <button class="7 num button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">7</div></button>
+        <button class="6 num button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">6</div></button>
+        <button class="5 num button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">5</div></button>
+        <button class="4 num button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">4</div></button>
+        <button class="3 num button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">3</div></button>
+        <button class="2 num button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">2</div></button>
+        <button class="1 num button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">1</div></button>
+        <button class="0 num button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">0</div></button>
+        <button class="plus oper button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">+</div></button>
+        <button class="minus oper button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">-</div></button>
+        <button class="multiply oper button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">*</div></button>
+        <button class="divide oper button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">/</div></button>
+        <button class="equals button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">=</div></button>
+        <button class="decimal button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">.</div></button>
+        <button class="percent button"><div class="a l"></div>
+            <div class="a r"></div>
+            <div class="a t"></div>
+            <div class="a b"></div>
+            <div class="text">%</div></button>
     </div>
     <script src="script.js"></script>
 </body>
